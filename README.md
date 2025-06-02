@@ -1,6 +1,6 @@
 Go to the AI Agent Studio and import both AI Agents one by one, verify data is present, and Click Save > Publish it.
 
-Import 'CumulusInsurance_LiveChat_v33.workflow' to your Webex Connect service and make the following changes:
+Import '**CumulusInsurance_LiveChat_v33.workflow**' to your Webex Connect service and make the following changes:
 - Open Node number 2436 and 2438 and set to your Form Template (make sure you have atleast Email as one of the form field)
 - Open all the Receive Nodes, and click Save.
 - Open Suggested Response node, and select your +Suggested Response AI agent (published in Step-1).
