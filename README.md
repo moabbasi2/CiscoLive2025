@@ -1,3 +1,5 @@
+**Cumulus Insurance - Use Case 1** (Cumulus Insurance - Demo1.zip) - Download and extract all the three files.
+
 Go to the AI Agent Studio and import both AI Agents configs (**+Suggested Response AI Agent.json** & **Cumulus Insurance AI Agent.json**) individually. 
 Verify data is present, then Click Save > Publish.
 
