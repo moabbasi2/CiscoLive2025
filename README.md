@@ -1,21 +1,11 @@
-**LIVECHAT** **Cumulus Insurance - Use Case 1** (Cumulus Insurance - Demo1.zip) - Download and extract all the three files.
+Pre-requisite: Webex Connect digital platform, AI Autonomous Agent (Beta), Summarize Text Beta node, Journey node (JDS)
 
-		Go to the AI Agent Studio and import both AI Agents configs (**+Suggested Response AI Agent.json** & **Cumulus Insurance AI Agent.json**) individually. 
-		Verify data is present, then Click Save > Publish.
-		
-		Import 'CumulusInsurance_LiveChat_v33.workflow' to your Webex Connect service and make the following changes:
-		- Open Node number 2436 and 2438 and set to your Form Template (make sure you have atleast Email as one of the form field)
-		- Open all the Receive Nodes, and click Save.
-		- Open Suggested Response node, and select your +Suggested Response AI agent (published in Step-1).
-		- Open AI Agent node, and select your Cumulus Insurance AI agent (published in Step-2).
-		- Open Queue Task node, and select your LiveChat queue.
-		- Go to Flow Settings > Custom Variables > Change the following fields according to your tenant:
-		  a) appId
-		  b) liveChatDomain
-		  c) queueId
-		  d) Optional - If you do not have JourneyID integration - ignore 'iframeId' and 'iframeSecret'
+**DEMO-1 Cumulus Insurance **
+•	Download and extract all the files (Demo-1 CumulusInsurance LiveChat.zip)
+•	Go to the AI Agent Studio and create a KB document for Cumulus Insurance FAQ (for customer interaction) and upload the ‘Cumulus Insurance FAQs.docx’ file to it
+•	Create another KB document for Suggested Response FAQ (for agent assistance) and upload the ‘Suggested Response FAQ-detailed.docx’ file to it.
+•	Import the AI Agent for Cumulus Insurance (Cumulus Insurance AI Agent.json) and attach the Cumulus Insurance FAQ Knowledgebase to it. Make sure ‘Agent handoff tab is enabled’
+•	Import the AI Agent for Suggested Response (+Suggested Response AI Agent.json) and attach the Suggested Response FAQ Knowledgebase to it. Make sure ‘Agent handoff tab is disable’
+•	Finally, import the ‘CumulusInsurance_LiveChat_v33’ workflow to your Webex Connect service and publish it to test this use case
+        _* Follow general guidelines to adjust flow and node settings based on your tenant._
 
-**APPLE BUSINESS** **CumulusAir - Use Case 2** (CumulusAir - Demo2.zip) - Download and extract all the files.
-
-
-**EMAIL** **CumulusAir - Use Case 3** (CumulusAir - Demo3.zip) - Download and extract all the files.
